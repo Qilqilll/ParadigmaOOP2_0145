@@ -13,3 +13,12 @@ public:
 	}
 };
 
+int main() {
+	remoteLampu lampuRumah;
+	lampuRumah.setSaklarNo(0, "Lampu Teras Rumah");
+	lampuRumah.setSaklarNo(1, "Lampu Teras Tamu");
+	lampuRumah.setSaklarNo(2, "Lampu Teras Tidur");
+	lampuRumah.setSaklarNo(3, "Lampu Dapur");
+
+	return 0;
+}
